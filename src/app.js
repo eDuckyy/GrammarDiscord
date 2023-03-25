@@ -29,7 +29,7 @@ client.on("message", async message => {
 
   const responseEmbed = await api.check(content);
   if (responseEmbed != null) {
-    message.channel.send(`Seems like you made some mistakes <@${message.author.id}>`, {
+    message.channel.send(`<@${message.author.id}>, a grammar mistake has been detected.`, {
       embed: responseEmbed
     });
   }
