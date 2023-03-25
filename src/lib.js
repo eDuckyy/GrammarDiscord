@@ -40,7 +40,7 @@ function formatForDiscord(res) {
     return { name: r.message, value };
   });
 
-  return { fields, footer: { text: "Grammar check from grammarbot.io" } };
+  return { fields, footer: { text: "Pleasant Grammar • Pleasant Corporation" } };
 }
 
 function filterResponse(res) {
